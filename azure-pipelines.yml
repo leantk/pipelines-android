@@ -37,7 +37,7 @@ steps:
   inputs:
     serverEndpoint: 'GoogleTestConn'
     appSlug: 'leantk/leantk-android-test'
-    appFile: '**/*.apk'
+    appFile: 'app/build/outputs/apk/app-prod-debug.apk'
     releaseNotesOption: 'input'
     releaseNotesInput: 'test'
     destinationType: 'groups'
