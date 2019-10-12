@@ -39,4 +39,5 @@ steps:
     appSlug: 'leantk/leantk-android-test'
     appFile: '$(build.artifactStagingDirectory)'
     releaseNotesOption: 'input'
+    releaseNotesInput: 'test'
     destinationType: 'groups'
